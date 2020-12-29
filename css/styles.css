@@ -18,15 +18,14 @@
     }
     #header{
         position:relative;
-        width:99%;
-        height:77vh;
+        width:100vw;
+        height:80vh;
         background-color: black;
         overflow:hidden;
     }
     #img-header{
-        margin-top:20px;
         margin-left:-70vw;
-        width:219%;
+        width:220vw;
         height:auto;
     }
     #header-link-text{
