@@ -27,7 +27,7 @@
         height: 100vh;
     }
 }
-
+@media(max-width:480px){
 body{
     margin:0px;
     padding:0px;
@@ -37,4 +37,5 @@ body{
     border-radius:50%;
     width:50%;
     height:auto;
+}
 }
