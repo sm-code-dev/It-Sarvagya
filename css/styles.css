@@ -19,7 +19,7 @@
     #header{
         position:relative;
         width:110vw;
-        height:83vh;
+        height:82vh;
         background-color: black;
         overflow:hidden;
     }
@@ -32,9 +32,9 @@
         color:black;
         text-decoration: underline;
         text-align:right;
-        margin-top: -15vh;
-        margin-right:2vw;
-        font-size:14vw
+        margin-top: -25%;
+        margin-right:6%;
+        font-size:14vw;
     }
     }
 @media screen and (min-width:1025px){
