@@ -1,10 +1,9 @@
 @media screen and (max-width:480px) and (orientation:portrait){
-    body{
+    body,html{
         margin:0px;
         padding:0px;
         max-width:100%;
-        height:100%;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     #header-link{
         width:100%;
@@ -14,16 +13,17 @@
     #img-logo{
         border:2px solid white;
         border-radius:50%;
-        width:28vw;
+        width:30vw;
         height:auto;
         padding:1px
     }
     #header{
-        position:fixed;
-        width:110vw;
-        height:100%;
+        position: absolute;
+        width:120vw;
+        height:81vh;
+        overflow-y:hidden;
+        overflow-x: hidden;
         background-color: black;
-        overflow:hidden;
     }
     #img-header{
         margin-left:-70vw;
@@ -34,13 +34,20 @@
         color:black;
         text-decoration: underline;
         text-align:right;
-        margin-top: -25%;
-        margin-right:5%;
-        font-size:14vw;
+        margin-top: -15vh;
+        margin-right:4vw;
+        font-size:15vw
+    }
+    #scroll-img{
+       position: absolute;
+       z-index: 1; 
+       margin-top:-5%;
+       margin-left: 33%;
+       height:14%;
     }
     }
 @media screen and (min-width:1025px){
-    body{
+    body, html{
         margin:0px;
         padding:0px;
     }
@@ -48,25 +55,47 @@
         border: 2px solid white;
         border-radius: 50%;
         height: auto;
-        width:8%;
+        width:130%;
     }
     
 #header {
-        position: relative;
-        width: 100%;
+        position: absolute;
+        width: 100vw;
         height: 100vh;
         background-color: black;
     }
-    
-    #img-header{
+ #header1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:9;
+ }       
+ #img-header{
         width:100%;
         height:100%;
+        margin-left: -2%;
+}
+#container {
+        width: 100px;
+        height: 100px;
+        position: relative;
     }
-.video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-    }
+#header-link-text{
+    color:white;
+    text-decoration:underline;
+    font-size:500%;
+    margin-top:-130%;
+    margin-left:140%;
+} 
+#scroll-link{
+    width: 9%;
+    position: absolute;
+    z-index:10;
+    margin-top:-7%;
+    margin-left: 47%;
+}   
+#scroll-img{
+    width:75%;
+    height:auto;
+}
 }
