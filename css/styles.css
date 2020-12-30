@@ -12,9 +12,8 @@
     #img-logo{
         border:2px solid white;
         border-radius:50%;
-        width:29vw;
+        width:28vw;
         height:auto;
-        padding:1px
     }
     #header{
         position:relative;
@@ -31,7 +30,7 @@
     #header-link-text{
         text-align:right;
         margin-top: -15vh;
-        margin-right:2vw;
+        margin-right: 3vw;
         font-size:15vw
     }
     }
