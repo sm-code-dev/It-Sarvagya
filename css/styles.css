@@ -35,8 +35,8 @@
         text-decoration: underline;
         text-align:right;
         margin-top: -25%;
-        margin-right:1%;
         font-size:310%;
+        padding:1%;
     }
     #scroll-img{
        position: absolute;
