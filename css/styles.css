@@ -19,8 +19,8 @@
     }
     #header{
         position: absolute;
-        width:120vw;
-        height:80.3vh;
+        width:120%;
+        height:81%;
         overflow-y:hidden;
         overflow-x: hidden;
         background-color: black;
