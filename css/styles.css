@@ -1,4 +1,5 @@
-@media screen and (max-width:480px) and (orientation:portrait){
+
+@media screen and (max-width:480px) and (min-width:320px) and (orientation:portrait){
     body,html{
         margin:0px;
         padding:0px;
@@ -46,8 +47,65 @@
        height:14%;
     }
     }
-@media screen and (min-width:1025px){
+
+@media screen and (min-width:481px) and (max-width:767px) and (orientation:landscape){
     body, html{
+        position:relative;
+        margin:0px;
+        padding:0px;
+    }
+#img-logo {
+        border: 2px solid white;
+        border-radius: 50%;
+        height: auto;
+        width:100%;
+    }
+    
+#header {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+    }
+ #header1{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index:9;
+ }       
+ #img-header{
+        width:100%;
+        height:100%;
+        margin-left: -2%;
+}
+#container {
+        width: 100px;
+        height: 100px;
+        position: relative;
+    }
+#header-link-text{
+    color:white;
+    text-decoration:underline;
+    font-size:400%;
+    margin-top:-100%;
+    margin-left:110%;
+} 
+#scroll-link{
+    width: 9%;
+    position: absolute;
+    z-index:10;
+    margin-top:-7%;
+    margin-left: 47%;
+}   
+#scroll-img{
+    width:100%;
+    height:30%;
+    margin-top: -30%;
+}
+}    
+@media screen and (min-width:1281px){
+    body, html{
+        position:relative;
         margin:0px;
         padding:0px;
     }
@@ -60,7 +118,7 @@
     
 #header {
         position: absolute;
-        width: 100vw;
+        width: 99vw;
         height: 100vh;
         background-color: black;
     }
