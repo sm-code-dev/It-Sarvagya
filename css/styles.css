@@ -46,11 +46,12 @@
        height:12%;
     }
     #about{
+        position: absolute;
         margin-top: 135%;
-        padding: 1%;
+        margin-left: 6%;
     }
     #about-1-heading{
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family: ltc-bodoni-175;
         font-size:200%;
         width:100%
     }
