@@ -16,7 +16,7 @@
         border-radius:50%;
         width:30vw;
         height:auto;
-        padding:1px
+        padding-bottom:2%
     }
     #header{
         position: absolute;
@@ -33,10 +33,10 @@
     #header-link-text{
         color:black;
         text-decoration: underline;
-        text-align:right;
-        margin-top: -30%;
+        text-align:center;
+        margin-top: -28%;
         font-size:310%;
-        padding:1%;
+        padding-left:20%
     }
     #scroll-img{
        position: absolute;
