@@ -58,7 +58,7 @@
         border: 2px solid white;
         border-radius: 50%;
         height: auto;
-        width:100%;
+        width:90%;
     }
     
 #header {
@@ -88,9 +88,9 @@
 #header-link-text{
     color:white;
     text-decoration:underline;
-    font-size:400%;
-    margin-top:-100%;
-    margin-left:110%;
+    font-size:330%;
+    margin-top:-90%;
+    margin-left:105%;
 } 
 #scroll-link{
     width: 9%;
