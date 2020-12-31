@@ -47,10 +47,12 @@
     }
     #about{
         margin-top: 140%;
-        padding: 6%;
+        padding: 5%;
     }
-    #about-1{
+    #about-1-heading{
+        font-family:Georgia, 'Times New Roman', Times, serif;
         font-size:200%;
+        width:100%
     }
     }
 
