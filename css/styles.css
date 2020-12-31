@@ -34,7 +34,7 @@
         color:black;
         text-decoration: underline;
         text-align:right;
-        margin-top: -25%;
+        margin-top: -20%;
         font-size:310%;
         padding:1%;
     }
@@ -48,7 +48,7 @@
     #about{
         position: absolute;
         margin-top: 135%;
-        margin-left: 8%;
+        padding: 6%;
     }
     #about-1-heading{
         font-family: ltc-bodoni-175;
