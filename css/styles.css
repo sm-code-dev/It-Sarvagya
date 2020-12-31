@@ -16,7 +16,6 @@
         border-radius:50%;
         width:30vw;
         height:auto;
-        padding-bottom:2%
     }
     #header{
         position: absolute;
@@ -24,6 +23,7 @@
         height:81%;
         overflow-x: hidden;
         background-color: black;
+        margin-top: 4%;
     }
     #img-header{
         margin-left:-70vw;
@@ -34,9 +34,9 @@
         color:black;
         text-decoration: underline;
         text-align:center;
-        margin-top: -28%;
+        margin-top: -25%;
         font-size:310%;
-        padding-left:20%
+        padding-left:30%
     }
     #scroll-img{
        position: absolute;
