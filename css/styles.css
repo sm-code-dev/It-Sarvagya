@@ -1,3 +1,4 @@
+/*This is the styling for mobile devices in portrait mode*/
 @media screen and (max-width:480px) and (min-width:320px){
     body,html{
         margin:0px;
@@ -55,6 +56,8 @@
     }
     }
 
+
+/*This is the styling for laptops, and desktops*/
 @media screen and (min-width:1025px) and (max-width:1280px){
     body, html{
         position: absolute;;
@@ -111,6 +114,7 @@
     height:auto;
 }
 }
+/*This is the styling for mobile devices in landscape mode*/
 @media screen and (min-width:481px) and (max-width:767px){
     body, html{
         position:relative;
@@ -167,6 +171,9 @@
     height:30%;
 }
 }
+
+
+/*This is the styling for tablets and Ipads in portrait mode*/
 @media screen  and (min-width:768px) and (max-width:1024px) and (orientation:portrait){
     body, html{
         position: relative;
@@ -222,6 +229,9 @@
     height:auto;
 }
 }   
+
+
+/*This is the styling for tablets and Ipad in landscape mode*/
 @media screen  and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
     body, html{
         position: relative;
@@ -277,7 +287,10 @@
     width:90%;
     height:auto;
 }
-}     
+} 
+
+
+/*This is the styling for high resolution laptop*/    
 @media screen and (min-width:1281px){
     body, html{
         position: relative;

@@ -3,6 +3,33 @@
 
 <head>
     <script>setTimeout(function () { window.alert("Hey, I am the developer of this website. I am here with a request, please judge this website and give me suggestions to improve it. I am a newbie and want to improve. You can give me your suggestions in the comment section."); }, 1000);</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 700, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
     <title>It's Sarvagya</title>
     <base href="">
     <meta name="author" content="Swastik Mishra">
@@ -37,7 +64,7 @@
                 <source src="Video/Intro.mp4" type="video/mp4">
             </video>
             <div id="scroll-link">
-                <a href="#about" alt=""><img src="Images/scroll.png" id="scroll-img" alt="scroll-image"></a>
+                <a href="#about-1-heading" alt=""><img src="Images/scroll.png" id="scroll-img" alt="scroll-image"></a>
             </div>
         </div>
     </div><br><br><br>
@@ -61,7 +88,8 @@
             <h2>Content Type :-</h2>
         </div>
         <div id="content">
-            <p>My videos are mainly about tech, which encourages you to stay aware of the changing tech trend. I also
+            <p>My videos are mainly about tech, which encourages you to stay aware of the changing tech trend. I try to
+                inform you about various topics through hours of research, I also
                 try to cover more topics in my videos. My most of the videos fall in this category :-
             </p>
         </div>
