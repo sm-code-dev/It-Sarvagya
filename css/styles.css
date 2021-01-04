@@ -20,7 +20,7 @@
     #header{
         position: absolute;
         width:120%;
-        height:82%;
+        height:82.4%;
         overflow-x: hidden;
         background-color: black;
         margin-top: 4%;
@@ -41,7 +41,7 @@
     #scroll-img{
        position: absolute;
        z-index: 1; 
-       bottom:1em;
+       bottom:0.3em;
        margin-left: 35%;
        height:12%;
     }
