@@ -227,6 +227,7 @@
         position: relative;
         margin:0px;
         padding:0px;
+        overflow: hidden;
     }
 #img-logo {
         border: 2px solid white;
@@ -279,9 +280,12 @@
 }     
 @media screen and (min-width:1281px){
     body, html{
-        position:relative;
+        position: relative;
+        width:100%;
         margin:0px;
         padding:0px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
     }
 #img-logo {
         border: 2px solid white;
@@ -295,7 +299,7 @@
         width: 100vw;
         height: 100vh;
         background-color: black;
-        overflow: hidden;
+        overflow:hidden
     }
  #header1{
     width: 100%;
@@ -306,7 +310,7 @@
  #img-header{
         width:120%;
         height:auto;
-        margin-left: -16%;
+        margin-left: -12%;
         margin-top: -10%;
 }
 #container {
@@ -326,10 +330,29 @@
     position: absolute;
     z-index:10;
     margin-top:-13.6%;
-    margin-left: 45%;
+    margin-left: 47%;
 }   
 #scroll-img{
     width:70%;
     height:auto;
+}
+#about{
+    position: relative;
+    margin-top:18%;
+    overflow:hidden;
+    padding:28%;
+}
+#about-1-heading{
+    font-size: 320%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#about-1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:120%;
+    padding-top:5%;
+}
+#content-heading{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:250%
 }
 }
