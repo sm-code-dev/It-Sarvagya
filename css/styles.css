@@ -13,21 +13,21 @@
     }
     #img-logo{
         border:2px solid white;
-        border-radius:50%;
+        border-radius:49%;
         width:30vw;
         height:auto;
     }
     #header{
         position: absolute;
         width:120%;
-        height:82.4%;
+        height:81.9%;
         overflow-x: hidden;
         background-color: black;
         margin-top: 4%;
     }
     #img-header{
-        margin-left:-70vw;
-        width:220vw;
+        margin-left:-57%;
+        width:180%;
         height:auto;
     }
     #header-link-text{
@@ -47,7 +47,7 @@
     }
     #about{
         position: relative;
-        margin-top: 130%;
+        margin-top: 140%;
         padding: 8%;
     }
     #about-1-heading{
