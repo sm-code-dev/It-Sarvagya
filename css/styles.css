@@ -68,7 +68,8 @@
 /*This is the styling for laptops, and desktops*/
 @media screen and (min-width:1025px) and (max-width:1280px){
     body, html{
-        position: absolute;;
+        position: relative;
+        width:100%;
         margin:0px;
         padding:0px;
         overflow-x: hidden;
@@ -81,11 +82,11 @@
     }
     
 #header {
-        position: absolute;
+        position: relative;
         width: 100vw;
-        height: 100vh;
+        height: 693%;
         background-color: black;
-        overflow: hidden;
+        overflow-x:hidden
     }
 #header1{
     width: 100%;
@@ -94,10 +95,10 @@
     z-index:9;
  }       
 #img-header{
-        width:130%;
-        height:130%;
-        margin-left: -16%;
-        margin-top: -13%;
+        width:120%;
+        height:auto;
+        margin-left: -12%;
+        margin-top: -10%;
 }
 #container {
         width: 100px;
@@ -108,19 +109,44 @@
     color:white;
     text-decoration:underline;
     font-size:700%;
-    margin-top:-155%;
-    margin-left:147%;
+    margin-top:-110%;
+    margin-left:140%;
 } 
 #scroll-link{
-    width: 9%;
+    width: 7%;
     position: absolute;
     z-index:10;
-    margin-top:-20%;
+    margin-top:-8%;
     margin-left: 50%;
 }   
 #scroll-img{
     width:70%;
     height:auto;
+}
+#about{
+    position:relative;
+    overflow-x:hidden;
+    padding:30%;
+    margin-top: 15%;
+}
+#about-1-heading{
+    line-height: 1.3em;
+    font-size: 270%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#about-1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:115%;
+    padding-top:5%;
+}
+#content-heading{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:250%;
+}
+#content{
+    position:relative;
+    font-size: 115%;
 }
 }
 /*This is the styling for mobile devices in landscape mode*/
@@ -326,9 +352,9 @@
     }
     
 #header {
-        position: absolute;
+        position: relative;
         width: 100vw;
-        height: 100vh;
+        height: 760%;
         background-color: black;
         overflow-x:hidden
     }
