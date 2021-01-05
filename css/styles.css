@@ -185,60 +185,68 @@
 
 /*This is the styling for tablets and Ipads in portrait mode*/
 @media screen  and (min-width:768px) and (max-width:1024px) and (orientation:portrait){
-    body, html{
-        position: relative;
+    body,html{
         margin:0px;
         padding:0px;
+        max-width: 100%;
         overflow-x: hidden;
     }
-#img-logo {
-        border: 2px solid white;
-        border-radius: 50%;
-        height: auto;
-        width:135%;
-        margin-left: 10%;
+    #header-link{
+        width:100%;
+        margin-left:1vw;
+        margin-top:1vw;
     }
-    
-#header {
-        width: 100vw;
-        height: auto;
-        background-color: black;
-        overflow: hidden;
-        margin-top: 45%;
-        position: relative;
-    }
-#header1{
-    width: 100%;
-    height: 100%;
- }       
-#img-header{
-        width:200%;
+    #img-logo{
+        border:2px solid white;
+        border-radius:50%;
+        width:17%;
         height:auto;
-        margin-left: -58%;
-        margin-top: -29%;
-}
-#container {
-        width: 100px;
-        height: 100px;
     }
-#header-link-text{
-    color:black;
-    text-decoration:underline;
-    font-size:700%;
-    margin-top:-150%;
-    margin-left:147%;
-} 
-#scroll-link{
-    width: 12%;
-    position: absolute;
-    z-index:9;
-    margin-top:-24%;
-    margin-left: 46%;
-}   
-#scroll-img{
-    width:90%;
-    height:auto;
-}
+    #header{
+        position: absolute;
+        width:120%;
+        height:82.4%;
+        overflow: hidden;
+        background-color: black;
+    }
+    #img-header{
+        margin-left:-70vw;
+        width:220vw;
+        height:auto;
+        margin-top:-25%
+    }
+    #header-link-text{
+        color:black;
+        margin-top: -14%;
+        text-decoration: underline;
+        text-align:center;
+        font-size:7em;
+        
+    }
+    #scroll-img{
+       position: absolute;
+       z-index: 1; 
+       bottom:0.3em;
+       margin-left: 35%;
+       height:12%;
+    }
+    #about{
+        position: relative;
+        margin-top: 130%;
+        padding: 8%;
+    }
+    #about-1-heading{
+        font-size:180%;
+        width:100%
+    }
+    #about-1{
+        position: relative;
+        margin-top:2em;
+    }
+    #content-heading{
+        margin-top:2em;
+        font-size:150%
+    }
 }   
 
 
@@ -383,6 +391,5 @@
 #content{
     position:relative;
     font-size: 115%;
-    top:5%;
 }
 }
