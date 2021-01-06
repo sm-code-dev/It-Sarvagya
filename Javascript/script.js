@@ -22,4 +22,4 @@ $(document).ready(function () {
     });
 });
 
-setTimeout(function () { window.alert("Hello 🙌, I am the developer of this website 😊, I am here with a request, please judge 🙏 this site and give me suggestions to improve it. I am a newbie 😁 and want to improve, so please help me. Give me your suggestions in the comment section. 😏") }, 1000);
+setTimeout(function () { window.alert("Hello 🙌, I am the developer of this website 😊, I am here with a request, please judge 🙏 this site and give me suggestions to improve it. I am a newbie 😁 and want to improve, so please help me. Give me your suggestions in the comment section. 😏") }, 2000);
