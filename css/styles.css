@@ -632,6 +632,7 @@
     font-size:270%;
 }
 #content{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     position:relative;
     font-size: 115%;
 }
