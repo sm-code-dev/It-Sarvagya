@@ -610,8 +610,8 @@
     height:auto;
 }
 #about{
-    position:relative;
-    overflow-x:hidden;
+    height:70vh;
+    overflow:hidden;
     padding:28%;
     margin-top: 15%;
 }
