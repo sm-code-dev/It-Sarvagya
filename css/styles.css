@@ -130,8 +130,8 @@
     height:auto;
 }
 #about{
-    position:relative;
-    overflow-x:hidden;
+    height:100vh;
+    overflow:hidden;
     padding:30%;
     margin-top: 15%;
 }
