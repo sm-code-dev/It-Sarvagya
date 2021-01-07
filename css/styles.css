@@ -741,7 +741,6 @@
 #youtube-videos-1{
     position: absolute;
     width: 30%;
-    overflow: hidden;
     height: 12.5%;
     background: white;
     opacity: 1;
@@ -753,7 +752,6 @@
     width: 30%;
     height: 12.5%;
     background: white;
-    overflow: hidden;
     opacity: 1;
     margin-top:2vh;
     margin-left:33em;
@@ -761,7 +759,6 @@
 #youtube-videos-3{
     position: absolute;
     width: 30%;
-    overflow: hidden;
     height: 12.5%;
     background: white;
     opacity: 1;
