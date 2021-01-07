@@ -571,7 +571,6 @@
 /*This is the styling for tablets and Ipad in landscape mode*/
 @media screen  and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
     body, html{
-        position:relative;
         margin:0px;
         padding:0px;
         overflow-x: hidden;
@@ -655,11 +654,12 @@
 @media screen and (min-width:1281px){
     body, html{
         position: relative;
-        width:100%;
+        width:auto;
         margin:0px;
         padding:0px;
         overflow-x: hidden;
-        height:190%;
+        height:170%;
+        overflow-y: scroll;
     }
 #img-logo {
         border: 2px solid white;
@@ -712,7 +712,7 @@
     height:auto;
 }
 #about{
-    height:65vh;
+    height:32rem;
     overflow:hidden;
     padding:28%;
     margin-top: 15%;
@@ -741,28 +741,28 @@
 #youtube-videos-1{
     position: absolute;
     width: 30%;
-    height: 10%;
+    height: 13%;
     background: white;
     opacity: 1;
-    margin-top:10vh;
-    margin-left:3em;
+    padding:0px;
+    margin-left:3rem;
 }
 #youtube-videos-2{
     position: absolute;
     width: 30%;
-    height: 10%;
+    padding:0px;
+    height: 13%;
     background: white;
     opacity: 1;
-    margin-top:10vh;
-    margin-left:33em;
+    margin-left:33rem;
 }
 #youtube-videos-3{
+    padding:0px;
     position: absolute;
     width: 30%;
-    height: 10%;
+    height: 13%;
     background: white;
     opacity: 1;
-    margin-top:10vh;
-    margin-left:63em;
+    margin-left:63rem;
 }
 }
