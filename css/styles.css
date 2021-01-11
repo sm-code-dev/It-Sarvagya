@@ -50,7 +50,7 @@
     #about{
         position:absolute;
         margin-top: 55vh;
-        padding: 8%;
+        padding: 10%;
         height:150vh;
     }
     #about-1-heading{
@@ -76,7 +76,7 @@
        height: 30%;
        background: white;
        opacity: 1;
-       padding-top:27em;
+       padding-top:27.2em;
     }
     #youtube-videos-2{
        position: absolute;
@@ -97,7 +97,7 @@
     #video-container{
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: block;
     overflow-x: hidden;
     padding-left:1em;
     margin-top:240vh;
