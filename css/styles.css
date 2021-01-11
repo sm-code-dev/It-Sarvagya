@@ -76,8 +76,7 @@
        height: 30%;
        background: white;
        opacity: 1;
-       padding:1em;
-       padding-top:30em;
+       padding-top:26.5em;
     }
     #youtube-videos-2{
        position: absolute;
@@ -85,8 +84,7 @@
        height: 30%;
        background: white;
        opacity: 1;
-       padding:1em;
-       padding-top:15em;
+       padding-top:13em;
 
     }
     #youtube-videos-3{
@@ -95,14 +93,14 @@
         height: 29.5%;
         background: white;
         opacity: 1;
-        padding:1em;
     }
     #video-container{
     align-items: center;
     justify-content: center;
     display: flex;
     overflow-x: hidden;
-    margin-top:230vh;
+    padding-left:1em;
+    margin-top:240vh;
     }
 }
 
