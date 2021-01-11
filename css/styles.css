@@ -76,9 +76,8 @@
        height: 30%;
        background: white;
        opacity: 1;
-       margin-top:245vh;
-       margin-left:1em;
-       padding:5px;
+       padding:1em;
+       padding-top:30em;
     }
     #youtube-videos-2{
        position: absolute;
@@ -86,9 +85,9 @@
        height: 30%;
        background: white;
        opacity: 1;
-       margin-top:275vh;
-       margin-left:1em;
-       padding:5px;
+       padding:1em;
+       padding-top:15em;
+
     }
     #youtube-videos-3{
         position: absolute;
@@ -96,9 +95,14 @@
         height: 29.5%;
         background: white;
         opacity: 1;
-        margin-top:305vh;
-        margin-left:1em;
-        padding:5px;
+        padding:1em;
+    }
+    #video-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow-x: hidden;
+    margin-top:230vh;
     }
 }
 
@@ -655,13 +659,12 @@
 /*This is the styling for high resolution laptop*/    
 @media screen and (min-width:1281px){
     body, html{
-        position: relative;
         width:auto;
         margin:0px;
         padding:0px;
+        scrollbar-color: red;
         overflow-x: hidden;
-        min-height:180%;
-        height:180%
+        height:auto;
     }
 #img-logo {
         border: 2px solid white;
@@ -671,11 +674,11 @@
     }
     
 #header {
-        position: relative;
+        position: relative;;
         width: 100vw;
         height: 760%;
         background-color: black;
-        overflow-x:hidden
+        overflow:hidden
     }
 #header1{
     width: 100%;
@@ -705,7 +708,7 @@
     width: 7%;
     position: absolute;
     z-index:10;
-    margin-top:-13.6%;
+    margin-top:-14%;
     margin-left: 47%;
 }   
 #scroll-img{
@@ -714,12 +717,11 @@
     height:auto;
 }
 #about{
-    min-height:25%;
-    width:auto;
-    height:25%;
+    position: relative;
+    height:100vh;
     overflow:hidden;
-    padding:30%;
-    margin-top: 15%;
+    padding:32%;
+    margin-top: 10%;
 }
 #about-1-heading{
     line-height: 1.3em;
@@ -737,36 +739,37 @@
     font-size:270%;
 }
 #content{
+    overflow: hidden;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     position:relative;
     font-size: 115%;
 }
 
 #youtube-videos-1{
-    position: absolute;
-    width: 30%;
-    height: 13%;
+    display:block;
+    width: 28vw;
+    height:35vh;
     background: white;
-    opacity: 1;
-    padding:0rem;
-    margin-left:4vw;
+    padding:1.5em;
 }
 #youtube-videos-2{
-    position: absolute;
-    width: 30%;
-    padding:0rem;
-    height: 13%;
-    background: white;
-    opacity: 1;
-    margin-left:34vw;
+    display: block;
+    width: 28vw;
+    height: 35vh;
+    padding:1.5em;
 }
 #youtube-videos-3{
-    padding:0rem;
-    position: absolute;
-    width: 30%;
-    height: 13%;
-    background: white;
+    display: block;
+    width:28vw;
+    height: 35vh;
     opacity: 1;
-    margin-left:64vw;
+    padding:1.5em;
+}
+#video-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow-x: hidden;
+    margin-top:-35vh;
 }
 }
