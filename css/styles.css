@@ -504,7 +504,7 @@
 }
 #about{
     overflow-x: hidden;
-    padding:15%;
+    padding:17%;
     padding-top: 60vh;
 }
 #about-1-heading{
@@ -520,7 +520,7 @@
 }
 #content-heading{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:230%;
+    font-size:210%;
     font-weight:bold;
 }
 #content{
