@@ -641,6 +641,7 @@
         padding:0px;
         max-width: 100%;
         overflow-x: hidden;
+        height:320vh;
     }
     #header-link{
         width:100%;
@@ -683,7 +684,7 @@
     }
     #about{
         overflow: hidden;
-        padding: 14%;
+        padding: 18%;
         height:150vh;
     }
     #about-1-heading{
@@ -710,6 +711,38 @@
         position: static;
         margin-top:2em;
     }
+    #youtube-videos-1{
+        position: absolute;
+        width: 70%;
+        height: 30%;
+        background: white;
+        opacity: 1;
+        padding-top:42em
+     }
+     #youtube-videos-2{
+        position: absolute;
+        width: 70%;
+        height: 30%;
+        background: white;
+        opacity: 1;
+        padding-top:21em;
+ 
+     }
+     #youtube-videos-3{
+         position: absolute;
+         width: 70%;
+         height: 30%;
+         background: white;
+         opacity: 1;
+     }
+     #video-container{
+     align-items: center;
+     justify-content: center;
+     display: block;
+     overflow-x: hidden;
+     padding-left:7em;
+     margin-top:-35vh;
+     }   
     @media screen and (width:1024px) {
         body,html{
             margin:0px;
