@@ -555,10 +555,10 @@
     height: 15%;
     background: white;
     opacity: 1;
-    margin-top:9em;
+    margin-top:10em;
     overflow: hidden;
     margin-left:10em;
-    padding:0.3em;
+    padding:0.1em;
 }
 /*This is the styling for blackberry small tablets*/
 @media screen and (width:600px){
